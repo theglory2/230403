@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seong Young's daum</title>
-    <link rel="shoucut icon" href="./images/dt.png"> </head>
-
+    <title>KAIST</title>
+    <style>
+        * {margin: 0; list-style: none;}
+        body {background-color: rgb(000,065,145) ; font-size: 15px;}
+        #wrap {width: 1000px; height: 1200px; margin: 0 auto; background-color: #ddd; }
+        #wrap header {width: 1000px; height: 70px; background-color: #fff;} 
+        #wrap header h1.logo {width: 200px;height: 70px;float: left;}
+        #wrap header h1.logo img {width: 100px; margin-top: 23px; margin-left: 10px;}
+        #wrap header nav.menu {width: 800px;height: 70px; float: right;}
+        #wrap header nav.menu ul{float: right;}
+        #wrap header nav.menu li{float: left;}
+        #wrap header nav.menu li a{display: block;width: 130px;height: 30px;line-height: 30px; text-align: center; background-color: rgb(000,065,145); color: #ddd; 
+            margin-left: 1px; margin-top: 17px; font-weight: bold; border-top: 1px solid rgb(000,065,145); text-decoration: none; transition: .3s;}
+            #wrap header nav.menu li a:hover,
+            #wrap header nav.menu li a:focus
+            {background-color: #fff; color: blue; border-top: 1px solid rgb(000,065,145)}
+    </style>
+</head>
 <body>
-    <a href="https://www.daum.net"><img src="./images/daum.png" alt="daum"></a>
+    <!-- #wrap>header+section+footer -->
+    <div id="wrap">
+        <!-- <header>h1.logo+nav.menu</header> -->
+        <header><h1 class="logo">
+            <a href="https://kaist.ac.kr/"><img src="./images/logo.svg" alt="" ></a>
+        </h1>
+        <nav class="menu">
+            <!-- ul>li*5>a{KAIST} -->
+            <ul>
+                <li><a href="#">KAIST</a></li>
+                <li><a href="#">입학</a></li>
+                <li><a href="#">교육</a></li>
+                <li><a href="#">연구</a></li>
+                <li><a href="#">뉴스</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section></section>
+        <footer></footer>
+    </div>
 </body>
 </html>
